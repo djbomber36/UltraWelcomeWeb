@@ -1,0 +1,30 @@
+# Tutti i messaggi supportano il placeholder %prefix%
+# I messaggi il cui nome inizia con "points" (apparte "points_command_help") supportano %player% e %points%
+# Per scrivere messaggi a più linee guarda uw.roch-blondiaux.com/YamlFormatting
+prefix: '&c&lULTRA&6&lWELCOME &7|'
+no_new_player: '%prefix% &eNon c'è nessun giocatore nuovo da salutare!'
+not_a_player: '%prefix% &eSolo i giocatori possono usare questo comando!'
+offline_player: '%prefix% &eQuesto giocatore è offline!'
+welcome_self: '%prefix% &eNon puoi salutare te stesso!'
+already_welcome: '%prefix% &eHai già salutato questo giocatore!'
+no_permission: '%prefix% &eNon hai il permesso per farlo!'
+reloaded: '%prefix% &a&lLa configurazione è stata ricaricata!'
+anything_to_display: '&eNessun dato da mostrare...'
+points_command_help: |-
+  &bGestisci i punti dei giocatori:
+  &6Visita uw.roch-blondiaux.com per vedere il comando nei dettagli!
+  &7/uw points add &a<player> <points> &6[rewards]
+  &7/uw points set &a<player> <points> &6[rewards]
+  &7/uw points remove &a<player> <points> &6[rewards]
+  &7/uw points get &a<player>
+invalid_number: '%prefix% &cPer favore inserisci un numero valido!'
+points_added: '%prefix% &aPunti aggiunti con successo!'
+points_removed: '%prefix% &aPunti rimossi con successo!'
+points_set: '%prefix% &aPunti impostati con successo!'
+points_get: '%prefix% &6%player% &aha &6%points% &apunti!'
+invalid_subcommand: '%prefix% &cQuel sottocomando non esiste!'
+welcome_command_help: |-
+  &bGuida per il comando di Saluto:
+  &6/welcome &8- &7Saluta il nuovo giocatore
+  &6/welcome top &8- &7Mostra la classifica dei punti
+  &6/welcome help &8- &7Mostra questo messaggio di aiuto

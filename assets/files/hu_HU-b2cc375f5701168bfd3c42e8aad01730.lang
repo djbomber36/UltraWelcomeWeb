@@ -1,0 +1,30 @@
+# Minden üzenet támogatja a %prefix% helyözrőt.
+# Az üzenetek, mint a "points", aposzroffal vagy idézőjellel kezdődnek (Kivéve a "points_command_help") és támogatja a %player% és %points% helyörzőt
+# A yml többsoros üzeneteit itt láthatod: uw.roch-blondiaux.com/YamlFormatting
+prefix: '&c&lULTRA&6&lWELCOME &7|'
+no_new_player: '%prefix% &eNincs új játékos, akit üdvözölni lehetne!'
+not_a_player: '%prefix% &eCsak játékosként lehet használni ezt a parancsot!'
+offline_player: '%prefix% &eEz a játékos nem elérhető!'
+welcome_self: '%prefix% &eNem tudod magadat üdvözölni!'
+already_welcome: '%prefix% &eMár üdvözölted ezt a játékost!'
+no_permission: '%prefix% &eEzt nem teheted meg, mert nincs rá engedélyed!'
+reloaded: '%prefix% &a&lKonfiguráció sikeresen újra lett töltve!'
+anything_to_display: '&eNincs kimutatható adat...'
+points_command_help: |-
+  &bKezeld a játékos pontjait:
+  &6Nézd meg a uw.roch-blondiaux.com weboldalt a parancsok részleteiért!
+  &7/uw points add &a<játékos> <pontok> &6[jutalom]
+  &7/uw points set &a<játékos> <pontok> &6[jutalom]
+  &7/uw points remove &a<játékos> <pontok> &6[jutalom]
+  &7/uw points get &a<játékos>
+invalid_number: '%prefix% &cKérlek, írj be egy érvényes számot!'
+points_added: '%prefix% &aPont sikeresen hozzáadva!'
+points_removed: '%prefix% &aPont sikeresen eltávolítva!'
+points_set: '%prefix% &aPont sikeresen be lett állítva!'
+points_get: '%prefix% &6%player% &ajátékosnak &6%points% &apontja van!'
+invalid_subcommand: '%prefix% &cEz az alparancs nem létezik!'
+welcome_command_help: |-
+  &bWelcome command help:
+  &6/welcome &8- &7Üdvözli az új játékosokat.
+  &6/welcome top &8- &7Megmutatja a pont ranglistát.
+  &6/welcome help &8- &7Megmutatja ezt a súgó menüt.

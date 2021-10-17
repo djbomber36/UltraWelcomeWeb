@@ -1,0 +1,30 @@
+# All messages support %prefix% placeholder
+# Messages starting with "points" (except "points_command_help") support %player% and %points%
+# For yaml multi line messages see uw.roch-blondiaux.com/YamlFormatting
+prefix: '&c&lULTRA&6&lWELCOME &7|'
+no_new_player: '%prefix% &eThere is no new player to welcome!'
+not_a_player: '%prefix% &eOnly players can use this command!'
+offline_player: '%prefix% &eThis player is offline!'
+welcome_self: '%prefix% &eYou can''t welcome yourself!'
+already_welcome: '%prefix% &eYou have already welcomed this player!'
+no_permission: '%prefix% &eYou haven''t the permission to do that !'
+reloaded: '%prefix% &a&lConfiguration has been reloaded!'
+anything_to_display: '&eNo data to display ...'
+points_command_help: |-
+  &bManage player points:
+  &6Check uw.roch-blondiaux.com to see the command in detail!
+  &7/uw points add &a<player> <points> &6[rewards]
+  &7/uw points set &a<player> <points> &6[rewards]
+  &7/uw points remove &a<player> <points> &6[rewards]
+  &7/uw points get &a<player>
+invalid_number: '%prefix% &cPlease enter a valid number!'
+points_added: '%prefix% &aPoints added successfully!'
+points_removed: '%prefix% &aPoints removed successfully!'
+points_set: '%prefix% &aPoints set successfully!'
+points_get: '%prefix% &6%player% &ahas &6%points% &apoints!'
+invalid_subcommand: '%prefix% &cThat subcommand doesn''t exist!'
+welcome_command_help: |-
+  &bWelcome command help:
+  &6/welcome &8- &7Welcome the newest player
+  &6/welcome top &8- &7Display the points leaderboard
+  &6/welcome help &8- &7Display this help message

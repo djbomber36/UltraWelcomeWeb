@@ -1,0 +1,31 @@
+# Всички съобщения спонсорират %prefix% placeholder
+# Съобщения започваши с "points" (С изключение "points_command_help") спонсорират %player% и %points%.
+# За yaml многоредови съобщения проверете в uw.roch-blondiaux.com/YamlFormatting
+
+prefix: '&c&lULTRA&6&lWELCOME &7|'
+no_new_player: '%prefix% &eНяма нов играч, който да се посрещне!'
+not_a_player: '%prefix% &eСамо играчите могат да ползват тази конанда!'
+offline_player: '%prefix% &eИграчът не е на линия!'
+welcome_self: '%prefix% &eНе може да посрещнете себеси!'
+already_welcome: '%prefix% &eВие вече посрещнахте този играч!'
+no_permission: '%prefix% &eНямате права за тази команда!'
+reloaded: '%prefix% &a&lКонфигурацията беше презаредена!'
+anything_to_display: '&eНяма данни, който да бъдат показани...'
+points_command_help: |-
+  &bУправление на точките на играчите:
+  &6Проверете uw.roch-blondiaux.com за да получите детайли за командите!
+  &7/uw points add &a<играч> <точки> &6[награди]
+  &7/uw points set &a<играч> <точки> &6[награди]
+  &7/uw points remove &a<играч> <точки> &6[награди]
+  &7/uw points get &a<играч>
+invalid_number: '%prefix% &cМоля ваведете валидно число!'
+points_added: '%prefix% &aТочките бяха успешно добавени!'
+points_removed: '%prefix% &aТочките бяха успешно премахнати!'
+points_set: '%prefix% &aТочките бяха променени успешно!'
+points_get: '%prefix% &6%player% &aима &6%points% &aточки!'
+invalid_subcommand: '%prefix% &cТази подкоманда не съществува!'
+welcome_command_help: |-
+  &bWelcome команда помош:
+  &6/welcome &8- &7Посрещни най новия играч
+  &6/welcome top &8- &7Покажи точките на класиране
+  &6/welcome help &8- &7Покажи това помощно съобщение
